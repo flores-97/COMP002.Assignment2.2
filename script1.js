@@ -7,3 +7,15 @@
 // ###
 // ##
 // #
+let hashTag;
+hashTag = "#";
+
+for (hashTag; hashTag.length <= 4; hashTag += "#")
+{
+    console.log(hashTag);
+}
+for (; hashTag.length > 1;)
+{
+    hashTag = hashTag.slice(0, -1);
+    console.log(hashTag);
+}
